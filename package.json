@@ -1,7 +1,6 @@
 {
-"homepage": "https://esr22fahmy.github.io/Project-Games",
-
-"name": "games",
+  "homepage": "https://esr22fahmy.github.io/Project-Games",
+  "name": "games",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
