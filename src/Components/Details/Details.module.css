@@ -1,0 +1,28 @@
+.btnFree{
+  color: #aaa !important;
+    background-color: #32383e !important;
+    border-color: #32383e!important;
+}
+
+.btnPlay{
+    color: #fff;
+    background-color: #4799eb;
+    border-color: #4799eb;
+    padding: 0 6.7rem;
+}
+.fontWi{
+  font-weight: 800;
+}
+.fontWiAbout{
+  font-weight: 600;
+}
+
+.textP{
+  font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+
+}
+.cur{
+  cursor: grab;
+}

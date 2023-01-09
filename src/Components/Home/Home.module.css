@@ -1,0 +1,44 @@
+.HomeImg{
+    background: url(../../images/paladins.b44d33d6e7ee1ba8.png);
+    background-repeat: no-repeat;
+    background-color: #1c1e22;
+    background-position: top;
+    background-size: contain;
+    border-radius: 0.3rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgba(0,0,0,.6);
+    padding: 4rem 2rem;
+}
+
+.textBlue{
+  color: #49acff!important;
+}
+
+.fantH1{
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+.robot{
+     font-weight: 600 !important;
+    font-size: 1.6yrem !important; 
+}
+
+.free{
+    background-color: #4799eb;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.title{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.cardHover{
+cursor: pointer;
+transition: all 1s;
+}
+.cardHover:hover{
+
+        transform: scale(1.03);
+}

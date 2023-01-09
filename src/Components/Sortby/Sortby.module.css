@@ -1,0 +1,24 @@
+
+.free{
+    background-color: #4799eb;
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.title{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.cardHover{
+cursor: pointer;
+transition: all 1s;
+}
+.cardHover:hover{
+
+        transform: scale(1.03);
+}
+
+.genre{
+    background-color: #7a8288;
+}
