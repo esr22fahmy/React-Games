@@ -52,6 +52,7 @@ useEffect(() => {
        path: "/",
        element: <Layout dataToken={dataToken} funLogout={funLogout} />,
        children: [
+         { path:'*', element:<Login/>},
          { index: true, element: <Login saveData={saveData} /> },
          { path: "home", element:<ProdectRoute dataToken={dataToken} > <Home /> </ProdectRoute>},
          { path: "all", element:  <ProdectRoute dataToken={dataToken}> <All /> </ProdectRoute>},
@@ -59,7 +60,7 @@ useEffect(() => {
          { path: "sortby/:path", element: <ProdectRoute dataToken={dataToken}> <Sortby /> </ProdectRoute> },
          { path: "categories/:path", element: <ProdectRoute dataToken={dataToken}> <Categories /> </ProdectRoute> },
          { path: "details/:id", element: <ProdectRoute dataToken={dataToken}> <Details /> </ProdectRoute> },
-        { path: "playnow/:id", element: <ProdectRoute dataToken={dataToken}> <PlayNow /> </ProdectRoute> },
+         { path: "playnow/:id", element: <ProdectRoute dataToken={dataToken}> <PlayNow /> </ProdectRoute> },
 
          { path: "join", element: <Join /> },
          { path: "logout", element: <Logout /> },
