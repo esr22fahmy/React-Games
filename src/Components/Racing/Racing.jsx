@@ -7,16 +7,16 @@ export default function Racing({ carryCate }) {
   console.log(carryCate)
   return (
     <>
-    <div className={ `${styleSor.cardHover} card col-md-3 bg-transparent `}>
+    <div className={ `${styleSor.cardHover} card col-12 col-md-6 col-lg-4 col-xl-3 bg-transparent `}>
         <Link className=' nav-link' to={`/details/${carryCate.id}`}>
         
               <img src={carryCate.thumbnail} className="card-img-top w-100" alt="game"/>
           <div className="card-body  ">
                   <div className='d-flex justify-content-between '> 
-                    <h4 className={`${styleSor.title} "card-title text-nowrap"`}>{carryCate.title.length > 18 ? carryCate.title.slice(0, 15)+`...` : carryCate.title}</h4>
+                    <h4 className={`${styleSor.title} "card-title text-nowrap"`}>{carryCate.title.length > 15 ? carryCate.title.slice(0, 10)+`...` : carryCate.title}</h4>
                   <span className={`${styleSor.free} text-uppercase d-flex align-items-center rounded px-2`}>free</span>
                   </div>
-                  <p className=' text-muted'>{carryCate.short_description.slice(0, 25)}{`...`}</p>
+                  <p className=' text-muted'>{carryCate.short_description.slice(0, 20)}{`...`}</p>
                   <div className=' d-flex justify-content-between'>
                     <div>
                       <i className="fa-solid fa-square-plus"></i>

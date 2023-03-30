@@ -63,10 +63,10 @@ await axios.request(options).then(function (response) {
               <div className='Layer'>
                   <div className='container pt-5 '>
                        <div className='row'>
-                          <div className=' col-md-4'>
+                          <div className=' col-xl-4 '>
                              <img src={ItemDetails.thumbnail} className="w-100  rounded-2" alt="game"/>
                               <div className='pt-3  d-flex justify-content-between  px-2 py-3   '>
-                                <button className={`btn  text-uppercase py-2   ${styleDet.btnFree} `}>free</button>
+                                <button className={`btn  text-uppercase py-2 ${styleDet.btnFree} `}>free</button>
                   <a className={`${styleDet.btnPlay}  rounded-2  text-decoration-none text-white  d-flex align-items-center`}
                     href={`${ItemDetails.freetogame_profile_url}`} target='_blank' rel="noreferrer">
                                     <span className=' fw-bold pe-1'>PLAY NOW </span>

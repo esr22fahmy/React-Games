@@ -12,10 +12,14 @@ export default function Platforms() {
   function FunPlat() {
     if (path === 'pc') { 
       getApipPlatform("pc"); 
+      
       document.title = 'Pc';
+  // document.body.style.backgroundColor = "red";
+        
     } else if (path === 'browser') {
       getApipPlatform("browser"); 
-      document.title='Browser'
+      document.title = 'Browser'
+  // document.body.style.backgroundColor = "black";
 
 
     }

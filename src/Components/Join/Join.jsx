@@ -96,7 +96,7 @@ async function setUserForApi() {
         <form onSubmit={FunSubmit}>
 
           <div className='row '>
-              <div className='col-md-6'>
+              <div className='col-md-6 '>
 
                 <input onChange={getInputs} type="text" name="first_name" placeholder="First Name"  className="form-control form-control-user  bg-dark border-0 text-white"/>
                 {erroData.map((err, index) => 
@@ -105,7 +105,7 @@ async function setUserForApi() {
                   )}
             </div>
 
-            <div className='col-md-6 '>
+            <div className='col-md-6 mt-3  mt-lg-0 mt-xl-0 mt-md-0 '>
               <input onChange={getInputs} type="text" name="last_name" placeholder="last name" className="form-control form-control-user  bg-dark border-0 text-capitalize text-white"/>
                 {erroData.map((err, index) =>
                   (err.context.label === 'last_name')?<div key={index} className=' small alert alert-warning py-0 mt-1'>{err.message}</div>:<div></div>
@@ -143,13 +143,14 @@ async function setUserForApi() {
             {marrageNotSuccess? <div className='small alert  alert-danger py-1 mt-2'>{marrageNotSuccess}</div>:<div></div>}
            
 
-         <button className={`${styleJoin.btnCreate} btn btn-info  mt-3 w-100 text-white`}>Create Account </button>
+         <button className={`${styleJoin.btnCreate} btn btn-info mb-3  mt-3 w-100 text-white`}>Create Account </button>
 
           </form>
 
-          <div className="text-muted fa-xs text-center  pt-3 pb-3 ">This site is protected by reCAPTCHA and the Google
-            <a href="https://policies.google.com/privacy" className="text-secondary">Privacy Policy</a> and
-            <a href="https://policies.google.com/terms" className="text-secondary">Terms of Service</a> apply.</div>
+          <small className="text-muted  text-center   pb-3 text-wrap  ">This site is protected by reCAPTCHA and the Google
+            <a href="https://policies.google.com/privacy" className="text-secondary ">Privacy Policy</a> and
+            <a href="https://policies.google.com/terms" className="text-secondary">Terms of Service</a> apply.
+          </small>
 
           <hr></hr>
 

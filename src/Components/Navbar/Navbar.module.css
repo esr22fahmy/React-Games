@@ -3,3 +3,16 @@
 .imgNavS{
   width: 40%;
 }
+
+
+@media (max-width: 991px) {
+  .imgNavS{
+  width: 100% !important;
+}
+}
+
+@media (min-width: 991px) and (max-width: 991px) {
+ .imgNavS{
+  width: 100% !important;
+}
+}

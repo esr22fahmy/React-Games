@@ -52,6 +52,7 @@ useEffect(() => {
        path: "/",
        element: <Layout dataToken={dataToken} funLogout={funLogout} />,
        children: [
+      //  path:'*'علشان يفتح علي الجت
          { path:'*', element:<Login/>},
          { index: true, element: <Login saveData={saveData} /> },
          { path: "home", element:<ProdectRoute dataToken={dataToken} > <Home /> </ProdectRoute>},
@@ -72,9 +73,8 @@ useEffect(() => {
   return (
     <>
       <div>
-     <RouterProvider router={routes} />
-        // <Online>     </Online>
-        // <Offline><h1 className=" py-4 bg-danger text-center text-light">You Are Offline </h1></Offline>
+        <Online>      <RouterProvider router={routes} /></Online>
+        <Offline><h1 className=" py-4 bg-danger text-center text-light">You Are Offline </h1></Offline>
       </div>
     </>
   );

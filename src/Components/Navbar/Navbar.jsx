@@ -9,8 +9,8 @@ export default function Navbar({dataToken ,funLogout}) {
         
 <nav className="navbar navbar-expand-lg  bg-transparent shadow py-2 ">
   <div className="container text-capitalize">
-     <Link className="navbar-brand text-light " to="home">
-        <img className={`${styleNav.imgNavS}`} src={imgNav} alt=""/>
+     <Link className="navbar-brand text-light nn " to="home">
+        <img className={`${styleNav.imgNavS} `} src={imgNav} alt=""/>
             game over
       </Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

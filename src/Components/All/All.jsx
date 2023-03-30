@@ -53,15 +53,15 @@ let options = {
       <div className='row g-4 pt-4'>
         {dataGames.slice(0,moreGames).map((gam ,index) =>
       
-          <div key={index} className={ `${styleAll.cardHover} card col-md-3 bg-transparent `}>
+          <div key={index} className={ `${styleAll.cardHover} card col-12 col-md-6 col-lg-4 col-xl-3 bg-transparent `}>
             <Link className=' nav-link' to={`/details/${gam.id}`} >
-               <img src={gam.thumbnail} className="card-img-top w-100" alt="game"/>
+              <img src={gam.thumbnail} className="card-img-top w-100" alt="game"/>
             <div className="card-body  ">
               <div className='d-flex justify-content-between '> 
-                <h4 className={`${styleAll.title} card-title text-nowrap`}>{gam.title.length > 18 ? gam.title.slice(0, 15)+`...` : gam.title}</h4>
+                <h4 className={`${styleAll.title} card-title text-nowrap`}>{gam.title.length > 15 ? gam.title.slice(0, 10)+`...` : gam.title}</h4>
               <span className={`${styleAll.free} text-uppercase d-flex align-items-center rounded px-2`}>free</span>
               </div>
-              <p className=' text-muted'>{gam.short_description.slice(0, 25)}{`...`}</p>
+              <p className=' text-muted'>{gam.short_description.slice(0, 20)}{`...`}</p>
               <div className=' d-flex justify-content-between'>
                 <div>
                   <i className="fa-solid fa-square-plus"></i>
