@@ -40,7 +40,7 @@ let navigate = useNavigate();
 
 async function setUserForApi() {
 
-    let setData = await axios.post('https://movies-api.routemisr.com/signin', user);
+    let setData = await axios.post('https://movies-api.routemisr.com/signup', user);
       //  console.log(setData.data);
   if (setData.data.message === "success") {
     console.log("s")
