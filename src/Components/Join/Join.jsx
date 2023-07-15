@@ -40,7 +40,7 @@ let navigate = useNavigate();
 
 async function setUserForApi() {
 
-    let setData = await axios.post('https://sticky-note-fe.vercel.app/signup', user);
+    let setData = await axios.post('https://movies-api.routemisr.com/signin', user);
       //  console.log(setData.data);
   if (setData.data.message === "success") {
     console.log("s")
