@@ -17,7 +17,7 @@ let [user, setUser] = useState({
    
    });
   let [erroData, setErroData] = useState([]);
-  let [marrageNotSuccess, setmarrageNotSuccess] = useState('');
+  let [marrageNotSuccess, setmarrageNotSuccess] = useState("");
 
 
   let navigate = useNavigate();
