@@ -72,9 +72,10 @@ useEffect(() => {
    ]);
   return (
     <>
-      <div>
-      <RouterProvider router={routes} />
-      </div> 
+    <div>
+        <Online>      <RouterProvider router={routes} /></Online>
+        <Offline><h1 className=" py-4 bg-danger text-center text-light">You Are Offline </h1></Offline>
+      </div>
     </>
   );
    
