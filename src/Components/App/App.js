@@ -65,17 +65,15 @@ useEffect(() => {
 
          { path: "join", element: <Join /> },
          { path: "logout", element: <Logout /> },
-         //  { path: "platforms/pc", element: <Pc /> },
-         //  { path: "browser", element: <Browser /> },
+        
        ],
      },
    ]);
   return (
     <>
-    <div>
-        <Online>      <RouterProvider router={routes} /></Online>
-        <Offline><h1 className=" py-4 bg-danger text-center text-light">You Are Offline </h1></Offline>
-      </div>
+      <div>
+      <RouterProvider router={routes} />
+      </div> 
     </>
   );
    
