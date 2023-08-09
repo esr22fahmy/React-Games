@@ -28,7 +28,7 @@ export default function Navbar({dataToken ,funLogout}) {
               <Link className="nav-link dropdown-toggle text-light" to="platforms" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Platforms 
               </Link>
-              <ul class="dropdown-menu text-lowercase">
+              <ul className={`${styleNav.dropdown} dropdown-menu text-lowercase`}>
                 <li><Link className="dropdown-item " to='platforms/pc'> pc</Link></li>
                 <li><Link className="dropdown-item" to='platforms/browser'>browser</Link></li>
               </ul>
@@ -38,7 +38,7 @@ export default function Navbar({dataToken ,funLogout}) {
               <Link className="nav-link dropdown-toggle text-light" to="sortby" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 sortby 
               </Link>
-              <ul class="dropdown-menu text-lowercase">
+              <ul className={`${styleNav.dropdown} dropdown-menu text-lowercase`}>
                 <li><Link className="dropdown-item " to='sortby/release-date'> release-date</Link></li>
                 <li><Link className="dropdown-item" to='sortby/popularity'>popularity</Link></li>
                 <li><Link className="dropdown-item" to='sortby/alphabetical'>alphabetical</Link></li>
@@ -50,7 +50,7 @@ export default function Navbar({dataToken ,funLogout}) {
               <Link className="nav-link dropdown-toggle text-light" to="categories" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 categories 
               </Link>
-              <ul class="dropdown-menu text-lowercase">
+              <ul className={`${styleNav.dropdown} dropdown-menu text-lowercase`}>
                 <li><Link className="dropdown-item " to='categories/racing'>racing</Link></li>
                 <li><Link className="dropdown-item" to='categories/sports'>sports</Link></li>
                 <li><Link className="dropdown-item" to='categories/social'>social</Link></li>

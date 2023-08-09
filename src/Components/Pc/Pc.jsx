@@ -1,11 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import stylePc from '../Platforms/Platforms.module.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import stylePc from '../Platforms/Platforms.module.css';
+import styleAll from "../All/All.module.css";
 
 export default function Pc({loadItem}) {
   // console.log(loadItem)
-  
- 
 
   return (<>
     
@@ -17,7 +16,7 @@ export default function Pc({loadItem}) {
                     <h4 className={`${stylePc.title} "card-title text-nowrap"`}>{loadItem.title.length > 15 ? loadItem.title.slice(0, 10)+`...` : loadItem.title}</h4>
                   <span className={`${stylePc.free} text-uppercase d-flex align-items-center rounded px-2`}>free</span>
                   </div>
-                  <p className=' text-muted'>{loadItem.short_description.slice(0, 20)}{`...`}</p>
+                  <p className={`${styleAll.desc} small` }>{loadItem.short_description.slice(0, 20)}{`...`}</p>
                   <div className=' d-flex justify-content-between'>
                     <div>
                       <i className="fa-solid fa-square-plus"></i>

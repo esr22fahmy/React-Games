@@ -28,7 +28,7 @@ export default function App() {
     let encodedToken = localStorage.getItem("token");
     let deencodedToken = jwtDecode(encodedToken);
     setdetaToken(deencodedToken);
-    console.log(dataToken);
+    // console.log(dataToken);
     
   }
   let funLogout = () => {

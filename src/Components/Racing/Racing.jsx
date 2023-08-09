@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styleSor from '../Sortby/Sortby.module.css'
+import styleAll from "../All/All.module.css";
 
 
 export default function Racing({ carryCate }) {
-  console.log(carryCate)
+  // console.log(carryCate)
   return (
     <>
     <div className={ `${styleSor.cardHover} card col-12 col-md-6 col-lg-4 col-xl-3 bg-transparent `}>
@@ -16,7 +17,7 @@ export default function Racing({ carryCate }) {
                     <h4 className={`${styleSor.title} "card-title text-nowrap"`}>{carryCate.title.length > 15 ? carryCate.title.slice(0, 10)+`...` : carryCate.title}</h4>
                   <span className={`${styleSor.free} text-uppercase d-flex align-items-center rounded px-2`}>free</span>
                   </div>
-                  <p className=' text-muted'>{carryCate.short_description.slice(0, 20)}{`...`}</p>
+                  <p className={`${styleAll.desc} small` }>{carryCate.short_description.slice(0, 20)}{`...`}</p>
                   <div className=' d-flex justify-content-between'>
                     <div>
                       <i className="fa-solid fa-square-plus"></i>

@@ -59,7 +59,7 @@ let options = {
     
     <section className=' container'>
       <h3 className={styleHome.robot} >
-        <i class="fa-solid fa-robot"></i>
+        <i className="fa-solid fa-robot"></i>
         Personalized Recommendations
       </h3>
 

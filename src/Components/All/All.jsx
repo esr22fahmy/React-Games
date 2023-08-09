@@ -28,7 +28,7 @@ let options = {
 
    await axios.request(options).then(function (response) {
       setDataGames(response.data)
-          console.log(dataGames);
+          // console.log(dataGames);
 
 }).catch(function (error) {
 });
@@ -61,7 +61,7 @@ let options = {
                 <h4 className={`${styleAll.title} card-title text-nowrap`}>{gam.title.length > 15 ? gam.title.slice(0, 10)+`...` : gam.title}</h4>
               <span className={`${styleAll.free} text-uppercase d-flex align-items-center rounded px-2`}>free</span>
               </div>
-              <p className=' text-muted'>{gam.short_description.slice(0, 20)}{`...`}</p>
+              <p className={`${styleAll.desc} small` }>{gam.short_description.slice(0, 20)}{`...`}</p>
               <div className=' d-flex justify-content-between'>
                 <div>
                   <i className="fa-solid fa-square-plus"></i>

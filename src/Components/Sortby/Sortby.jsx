@@ -73,9 +73,6 @@ const options = {
       <div className='row g-4 pt-4 '>
         {sorFun()}{dataSor.slice(0, moreGames).map((sor, index) => <ReleaseDate key={index} carrySor={sor} />)}
         
-        {/* {sorFun()}{dataSor.slice(0,moreGames).map((sor, index) => <Bopularity key={index} carrySor={sor } />)}
-        {sorFun()}{dataSor.slice(0,moreGames).map((sor, index) => <Alphabetical key={index} carrySor={sor } />)}
-        {sorFun()}{dataSor.slice(0,moreGames).map((sor, index) => <Relevance key={index} carrySor={sor} />)} */}
 
       </div>
 

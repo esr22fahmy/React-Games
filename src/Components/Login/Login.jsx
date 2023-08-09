@@ -123,8 +123,8 @@ let [user, setUser] = useState({
           </div>
           <div className='text-center'>
             <span className="small">Not a member yet? </span>
-            <Link  class="small " to="/join"> Create Account
-            <i  class="fas fa-chevron-right small"></i></Link>
+            <Link  className="small " to="/join"> Create Account
+            <i  className="fas fa-chevron-right small"></i></Link>
 
           </div>
 

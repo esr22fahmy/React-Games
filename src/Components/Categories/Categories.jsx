@@ -82,7 +82,7 @@ let options = {
 };
   await axios.request(options).then(function (response) {
     setDataCate(response.data);
-	console.log(DataCate);
+	// console.log(DataCate);
 }).catch(function (error) {
 	// console.error(error);
 });

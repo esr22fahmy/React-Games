@@ -28,3 +28,12 @@ width: 15%;
   background-color: #fff;
 }
 
+.dropdown-item:hover{
+
+  background-color: #1e2125 !important;
+
+}
+
+input::placeholder{
+  color: #fff !important;
+}
