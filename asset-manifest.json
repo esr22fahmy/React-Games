@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Games/static/css/main.b48b7f10.css",
-    "main.js": "/React-Games/static/js/main.6e065f4b.js",
+    "main.css": "/React-Games/static/css/main.271d1bb9.css",
+    "main.js": "/React-Games/static/js/main.b43d02a5.js",
     "static/js/787.8060f575.chunk.js": "/React-Games/static/js/787.8060f575.chunk.js",
     "static/media/fa-solid-900.ttf": "/React-Games/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/paladins.png": "/React-Games/static/media/paladins.b44d33d6e7ee1ba8.0fddd1fbe0a5e0a0af93.png",
@@ -15,12 +15,12 @@
     "static/media/fa-v4compatibility.ttf": "/React-Games/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/React-Games/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/React-Games/index.html",
-    "main.b48b7f10.css.map": "/React-Games/static/css/main.b48b7f10.css.map",
-    "main.6e065f4b.js.map": "/React-Games/static/js/main.6e065f4b.js.map",
+    "main.271d1bb9.css.map": "/React-Games/static/css/main.271d1bb9.css.map",
+    "main.b43d02a5.js.map": "/React-Games/static/js/main.b43d02a5.js.map",
     "787.8060f575.chunk.js.map": "/React-Games/static/js/787.8060f575.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b48b7f10.css",
-    "static/js/main.6e065f4b.js"
+    "static/css/main.271d1bb9.css",
+    "static/js/main.b43d02a5.js"
   ]
 }
