@@ -35,5 +35,5 @@ width: 15%;
 }
 
 input::placeholder{
-  color: #fff !important;
+  color: rgb(181, 178, 178) !important;
 }
